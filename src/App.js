@@ -237,7 +237,7 @@ function App() {
           <Route exact path="/">
             <Home sellers={sellers} starting={starting} collections={collections}></Home>  
           </Route>
-          <Route path="/show">
+          <Route exact path="/show">
             <Show sellers={sellers} dates={dates} reviews={reviews} />
           </Route>
         </Switch>
