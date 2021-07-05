@@ -12,8 +12,8 @@ const Seller = ({seller}) => {
         </div>
         <div>
           <p className="fs-7 my-0"><GoStar className='text-danger'/> {seller.rating}<span className="text-secondary">(64) . {seller.place}</span></p>
-          <p className="my-1">{seller.description}</p>
-          <p className="my-1"><strong>From ${seller.price}</strong> / person</p>
+          <p className="my-1 fs-7">{seller.description}</p>
+          <p className="my-1 fs-7"><strong>From ${seller.price}</strong> / person</p>
         </div>
         <div className="card-img-overlay text-end text-white p-2">
           <h5 classname="text-white text-end"><BsHeart/></h5>
