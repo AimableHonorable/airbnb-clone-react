@@ -86,7 +86,7 @@ function App() {
   // hard coded data for experiences to be sold in few hours
   const [starting] = useState([
     {
-      id: 1,
+      id:1,
       url: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-1661135-poster/original/027394e3-d502-4cb8-9f7f-9a88f41551ba.jpeg?im_w=320",
       rating: 4.93,
       place: "Mexico",
@@ -95,7 +95,7 @@ function App() {
       time: "11:30 PM"
     },
     {
-      id: 2,
+      id:2,
       url: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-1756283-media_library/original/56caa3e0-5c63-4716-b84b-5813945a6845.jpeg?im_w=320",
       rating: 4.93,
       place: "Russia",
@@ -104,7 +104,7 @@ function App() {
       time: "09:00 PM"
     },
     {
-      id: 3,
+      id:3,
       url: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-1690313-media_library/original/8677ba38-0763-4fdc-8295-7ad1fd8f6a47.jpeg?im_w=320",
       rating: 4.93,
       place: "Unite States",
@@ -113,7 +113,7 @@ function App() {
       time: "10:20 PM"
     },
     {
-      id: 4,
+      id:4,
       url: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-1756283-media_library/original/5437b0ee-493b-4ece-a764-1f51eecea7a3.jpeg?im_w=240",
       rating: 4.93,
       place: "Unite States",
@@ -126,22 +126,22 @@ function App() {
   // collection data
   const [collections] = useState([
     {
-      id:1,
+      id: 1,
       caption: "Tour before you travel",
       url: "https://a0.muscache.com/im/pictures/91780510-ca64-4fc4-a7e6-be7c8f7129d5.jpg?im_w=1200"
     },
     {
-      id:2,
+      id: 2,
       caption: "Great for team building",
       url: "https://a0.muscache.com/im/pictures/c629937c-5cfb-4380-a8f5-5ec81c86e5fc.jpg?im_w=1200"
     },
     {
-      id:3,
+      id: 3,
       caption: "Give an untraditionale gift",
       url: "https://a0.muscache.com/im/pictures/f0347659-eb6f-42f9-8c37-124154ec8609.jpg?im_w=1200"
     },
     {
-      id:4,
+      id: 4,
       caption: "Learn the secrets of successful hosting",
       url: "https://a0.muscache.com/im/pictures/f44b56d9-c12e-425d-998a-6e9fc9f5d557.jpg?im_w=1200"
     }
@@ -158,7 +158,7 @@ function App() {
       day: "Mon, Jul 5"
     },
     {
-      id:1,
+      id:2,
       from: "09:00 AM",
       to: "11:00 AM",
       timezone: "CAT",
@@ -166,7 +166,7 @@ function App() {
       day: "Tue, Jul 6"
     },
     {
-      id:1,
+      id:3,
       from: "12:00 PM",
       to: "02:00 PM",
       timezone: "CAT",
@@ -174,7 +174,7 @@ function App() {
       day: "Thur, Jul 8"
     },
     {
-      id:1,
+      id:4,
       from: "10:00 AM",
       to: "12:00 AM",
       timezone: "CAT",

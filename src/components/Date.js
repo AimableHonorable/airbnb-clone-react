@@ -16,4 +16,4 @@ const Date = ({date}) => {
   )
 }
 
-export default Date
+export default Date 

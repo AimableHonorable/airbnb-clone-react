@@ -3,7 +3,7 @@ import { BsHeart } from 'react-icons/bs'
 
 const Plan = ({plan}) => {
   return (
-    <div className="card mb-3 rounded-5 mx-2" style={{style:"max-width: 540px;"}}>
+    <div className="card mb-3 rounded-5 mx-2" style={{style:"max-width: 540px"}}>
       <div className="row g-0">
         <div className="col p-2 pr-0 h-20">
           <img src={plan.url} className="img-fluid rounded-5 border border-1 fit" alt="mark" />
@@ -21,7 +21,7 @@ const Plan = ({plan}) => {
         </div>
       </div>
       <div className="card-img-overlay text-end text-dark p-2">
-        <h5 classname="text-white text-end"><BsHeart/></h5>
+        <h5 className="text-white text-end"><BsHeart/></h5>
       </div>
     </div>
   )
