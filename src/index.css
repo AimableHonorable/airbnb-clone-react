@@ -1,15 +1,21 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
-
 :root{
   --light: #f8f9fa!important;
   --white: white;
   --pink: #FF385C !important;
 }
+
+html{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
 *{
   font-family: 'Montserrat', sans-serif;
 }
@@ -17,10 +23,19 @@ body {
   text-decoration: none;
   color: inherit;
 }
+* a:hover{
+  color: inherit;
+}
 .h-20{
   height: 30vh;
 }
-
+.h-auto{
+  height: 10vh;
+}
+.svg{
+  height: 48px;
+  width: 48px;
+}
 .nav-item a{
   color: inherit;
   text-decoration: none;
@@ -76,6 +91,12 @@ body {
 .fs-7{
   font-size: 14px;
 }
+.fs-8{
+  font-size: 12px;
+}
+.fw-black{
+  font-weight: bolder;
+}
 .vertical-card{
   height: 250px;
   width: auto;
@@ -113,6 +134,10 @@ footer .container .row .col li{
 .footer-link{
   color: inherit;
 }
+.h-60{
+  height: 50vh;
+  overflow: hidden;
+}
 .h-third{
   height: 70vh;
   overflow: hidden;
@@ -146,4 +171,11 @@ footer .container .row .col li{
 .slides .slick-next{
   color: #282c34;
   background-color: #282c34;
+}
+.overflow-auto::-webkit-scrollbar{
+  display: none;
+}
+.profile-size{
+  height: 60px;
+  width: 60px;
 }

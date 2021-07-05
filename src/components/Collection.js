@@ -1,8 +1,8 @@
 
 const Collection = ({collection}) => {
   return (
-    <div className="card text-white position-relative mx-2 rounded-5 overflow-hidden">
-      <img src={collection.url} className="card-img" alt="...collection" />
+    <div className="card text-white position-relative mx-2 rounded-5 overflow-hidden h-60">
+      <img src={collection.url} className="card-img fit" alt="...collection" />
       <div className="card-img-overlay">
         <small>Collection</small>
         <h5 className="card-title">{collection.caption}</h5>

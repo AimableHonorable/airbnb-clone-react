@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
       <nav className="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img src={logo} height="40" alt="" />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,13 +19,13 @@ const Navbar = () => {
             <div className="d-flex">
               <ul className="navbar-nav align-middle fw-bold text-dark">
                 <li className="nav-item px-1">
-                  <a className="py-1 px-2 rounded-pill nav-link text-dark" href="">Become a host</a>
+                  <a className="py-1 px-2 rounded-pill nav-link text-dark" href="/">Become a host</a>
                 </li>
                 <li className="nav-item px-1 align-middle">
-                  <a className="py-1 px-2 rounded-circle nav-link text-dark" href="" > <FiGlobe /> </a>
+                  <a className="py-1 px-2 rounded-circle nav-link text-dark" href="/" > <FiGlobe /> </a>
                 </li>
                 <li className="nav-item px-1">
-                  <a className="py-1 px-2 rounded-pill nav-link text-dark border border-1" href=""><GoThreeBars/> <FaUserCircle  className="fs-3 text-muted"/></a>
+                  <a className="py-1 px-2 rounded-pill nav-link text-dark border border-1" href="/"><GoThreeBars/> <FaUserCircle  className="fs-3 text-muted"/></a>
                 </li>
               </ul>
             </div>
