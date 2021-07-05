@@ -1,6 +1,8 @@
 import logo from '../logo.png'
 import { FiGlobe } from 'react-icons/fi'
 import { FaUserCircle } from 'react-icons/fa'
+import { GoThreeBars } from 'react-icons/go'
+
 const Navbar = () => {
   return (
       <nav className="navbar navbar-expand-lg navbar-light bg-white shadow">
@@ -23,7 +25,7 @@ const Navbar = () => {
                   <a className="py-1 px-2 rounded-circle nav-link text-dark" href="" > <FiGlobe /> </a>
                 </li>
                 <li className="nav-item px-1">
-                  <a className="py-1 px-2 rounded-pill nav-link text-dark" href=""><FaUserCircle /></a>
+                  <a className="py-1 px-2 rounded-pill nav-link text-dark border border-1" href=""><GoThreeBars/> <FaUserCircle  className="fs-3 text-muted"/></a>
                 </li>
               </ul>
             </div>

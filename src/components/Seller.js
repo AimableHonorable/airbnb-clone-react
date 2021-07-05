@@ -11,7 +11,7 @@ const Seller = ({seller}) => {
           </a>
         </div>
         <div>
-          <p className="fs-7 my-0"><GoStar className='text-danger'/>{seller.rating}<span className="text-secondary">(64) . {seller.place}</span></p>
+          <p className="fs-7 my-0"><GoStar className='text-danger'/> {seller.rating}<span className="text-secondary">(64) . {seller.place}</span></p>
           <p className="my-1">{seller.description}</p>
           <p className="my-1"><strong>From ${seller.price}</strong> / person</p>
         </div>
