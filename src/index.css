@@ -179,3 +179,7 @@ footer .container .row .col li{
   height: 60px;
   width: 60px;
 }
+.seller:hover{
+  transform: scale(0.95);
+  transition-duration: 0.5s;
+}

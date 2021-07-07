@@ -5,6 +5,7 @@ import Collection from './Collection'
 const Collections = ({collections}) => {
   const settings = {
     dots: true,
+    centerMode: true,
     infinite: true,
     speed: 300,
     slidesToShow: 2,

@@ -229,13 +229,60 @@ function App() {
     }
   ])
 
+  const [navbuttons] = useState([
+    {
+      id: 1,
+      text: "Filters"
+    },
+    {
+      id: 2,
+      text: "Dates"
+    },
+    {
+      id: 3,
+      text: "Group Size"
+    },
+    {
+      id: 4,
+      text: "Family"
+    },
+    {
+      id: 5,
+      text: "Animals"
+    },
+    {
+      id: 6,
+      text: "Writting"
+    },
+    {
+      id: 7,
+      text: "Filters"
+    },
+    {
+      id: 8,
+      text: "Art & Writting"
+    },
+    {
+      id: 9,
+      text: "Baking"
+    },
+    {
+      id: 10,
+      text: "Fitness"
+    },
+    {
+      id: 11,
+      text: "Dance"
+    }
+  ])
+
   return (
     <Router>
       <div className="App">
         <Navbar></Navbar>
         <Switch>
           <Route exact path="/">
-            <Home sellers={sellers} starting={starting} collections={collections}></Home>  
+            <Home sellers={sellers} starting={starting} collections={collections} navbuttons={navbuttons}></Home>  
           </Route>
           <Route exact path="/show">
             <Show sellers={sellers} dates={dates} reviews={reviews} />

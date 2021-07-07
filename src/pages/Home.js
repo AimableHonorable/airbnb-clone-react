@@ -5,15 +5,15 @@ import Starting from '../components/Starting';
 import Collections from '../components/Collections';
 import Button from '../components/Button'
 
-const Home = ({sellers, starting, collections}) => {
+const Home = ({sellers, starting, collections, navbuttons}) => {
 
   return (
     <div>
       <Header></Header>
-      <div className="container py-4">
-        <NavSlide></NavSlide>
+      <div className=" px-5 py-3 sticky-top bg-white border-bottom">
+        <NavSlide navbuttons={navbuttons}></NavSlide>
       </div>
-      <hr />
+      
       <div className="container">
         <h4 className="pt-4 fw-bold my-3">Celebrate Pride around the world</h4>
         <Sellers sellers={sellers}></Sellers>

@@ -1,8 +1,9 @@
 import Slider from "react-slick";
+import NavButton from "./NavButton";
 
-const NavSlide = () => {
+const NavSlide = ({navbuttons}) => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     arrows: true,
     speed: 500,
@@ -37,17 +38,9 @@ const NavSlide = () => {
   return (
     <div>
       <Slider {...settings}>
-        <a className="rounded-pill w-auto bg-white text-center border py-1 px-2 mx-1" href="/">filters</a>
-        <a className="rounded-pill w-auto bg-white text-center border py-1 px-2 mx-1" href="/">Dates</a>
-        <a className="rounded-pill w-auto bg-white text-center border py-1 px-2 mx-1" href="/">Group size</a>
-        <a className="rounded-pill w-auto bg-light text-center py-1 px-2 mx-1" href="/">Family</a>
-        <a className="rounded-pill w-auto bg-light text-center py-1 px-2 mx-1" href="/">Animals</a>
-        <a className="rounded-pill w-auto bg-light text-center py-1 px-2 mx-1" href="/">writing</a>
-        <a className="rounded-pill w-auto bg-light text-center py-1 px-2 mx-1" href="/">Baking</a>
-        <a className="rounded-pill w-auto bg-light text-center py-1 px-2 mx-1" href="/">Cooking</a>
-        <a className="rounded-pill w-auto bg-light text-center py-1 px-2 mx-1" href="/">Dance</a>
-        <a className="rounded-pill w-auto bg-light text-center py-1 px-2 mx-1" href="/">Drinks</a>
-        <a className="rounded-pill w-auto bg-light text-center py-1 px-2 mx-1" href="/">Fitness</a>  
+        {navbuttons.map((navbutton) => (
+          <NavButton key="id" navbutton={navbutton} />
+        ))}
       </Slider>
     </div>
   )
